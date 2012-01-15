@@ -23,7 +23,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    // self.view.backgroundColor = [UIColor redColor];
+    // What if I want to use a different background color not previously defined in the presets for the UIColor class?
+    // Used UIColorFROMRGB Marcro provided by http://pessoal.org/blog/2008/11/27/creating-uicolor-objects-from-hex-values/
+    // This Macro provide colors that match hex values
+    // self.view.backgroundColor = UIColorFromRGB(0xFF00FF); // FF00FF is purple :-)
+    
+    
+    // What if I want to add texture to the background?
+    // Found the class property colorWithPatternImage
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"jack_finger.jpg"]]; 
+    
+    // What if I want to resize that background image to match the dimentions of the screen?
+    
+    
     NSLog(@"FIRST VIEW CONTROLLER - viewDidLoad");
 
     headerLabel = [[UILabel alloc] init];
@@ -32,6 +45,11 @@
     headerLabel.backgroundColor = [UIColor clearColor];
     headerLabel.frame = CGRectMake(0, 15, 320, 30);
     [self.view addSubview:headerLabel];  //this command places the label on the screen
+
+    
+    // What if I want to dynamically position these elements on the screen
+    // For example, what if I want to enter a message on top of the first input box and push everything down?
+    
     
     UILabel *voltsLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 80, 200, 30)];
     voltsLabel.textAlignment = UITextAlignmentRight;

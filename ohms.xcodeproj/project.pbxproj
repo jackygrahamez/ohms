@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81423C5014C38209001C9857 /* jack_finger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81423C4F14C38209001C9857 /* jack_finger.jpg */; };
 		8168404014BBAA0D00A809BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168403F14BBAA0D00A809BF /* UIKit.framework */; };
 		8168404214BBAA0D00A809BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168404114BBAA0D00A809BF /* Foundation.framework */; };
 		8168404414BBAA0D00A809BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168404314BBAA0D00A809BF /* CoreGraphics.framework */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81423C4F14C38209001C9857 /* jack_finger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jack_finger.jpg; path = ../../../../Downloads/jack_finger.jpg; sourceTree = "<group>"; };
 		8168403B14BBAA0D00A809BF /* ohms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8168403F14BBAA0D00A809BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8168404114BBAA0D00A809BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 		8168404614BBAA0D00A809BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81423C4F14C38209001C9857 /* jack_finger.jpg */,
 				8168404714BBAA0D00A809BF /* ohms-Info.plist */,
 				8168404814BBAA0D00A809BF /* InfoPlist.strings */,
 				8168404B14BBAA0E00A809BF /* main.m */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8168404A14BBAA0D00A809BF /* InfoPlist.strings in Resources */,
+				81423C5014C38209001C9857 /* jack_finger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,7 @@
 				8168405514BBAA0E00A809BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
