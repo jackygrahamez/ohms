@@ -13,6 +13,7 @@
 		8168404A14BBAA0D00A809BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8168404814BBAA0D00A809BF /* InfoPlist.strings */; };
 		8168404C14BBAA0E00A809BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168404B14BBAA0E00A809BF /* main.m */; };
 		8168405014BBAA0E00A809BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168404F14BBAA0E00A809BF /* AppDelegate.m */; };
+		8168405814BBABA800A809BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168405714BBABA800A809BF /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		8168403F14BBAA0D00A809BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8168404114BBAA0D00A809BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8168404314BBAA0D00A809BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8168404714BBAA0D00A809BF /* ohms-Info.plist */ = {isa = PBXFileReference; path = "ohms-Info.plist"; sourceTree = "<group>"; };
+		8168404714BBAA0D00A809BF /* ohms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ohms-Info.plist"; sourceTree = "<group>"; };
 		8168404914BBAA0D00A809BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8168404B14BBAA0E00A809BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8168404D14BBAA0E00A809BF /* ohms-Prefix.pch */ = {isa = PBXFileReference; path = "ohms-Prefix.pch"; sourceTree = "<group>"; };
-		8168404E14BBAA0E00A809BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8168404D14BBAA0E00A809BF /* ohms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ohms-Prefix.pch"; sourceTree = "<group>"; };
+		8168404E14BBAA0E00A809BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8168404F14BBAA0E00A809BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8168405614BBABA800A809BF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8168405714BBABA800A809BF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				8168404E14BBAA0E00A809BF /* AppDelegate.h */,
 				8168404F14BBAA0E00A809BF /* AppDelegate.m */,
+				8168405614BBABA800A809BF /* FirstViewController.h */,
+				8168405714BBABA800A809BF /* FirstViewController.m */,
 				8168404614BBAA0D00A809BF /* Supporting Files */,
 			);
 			path = ohms;
@@ -153,6 +158,7 @@
 			files = (
 				8168404C14BBAA0E00A809BF /* main.m in Sources */,
 				8168405014BBAA0E00A809BF /* AppDelegate.m in Sources */,
+				8168405814BBABA800A809BF /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

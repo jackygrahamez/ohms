@@ -23,6 +23,15 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    // This is where you start your code
+    FirstViewController *first = [[FirstViewController alloc] init]; // alloc/init - typical phrase for creating objects
+    first.view.frame =[UIScreen mainScreen].applicationFrame;
+    [self.window addSubview:first.view]; //this places the view on to the screen
+    
+    //* = pointer Primitives do not need stars (int, float, double, boolean, long)
+    // objects require stars
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
