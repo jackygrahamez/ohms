@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81423C5014C38209001C9857 /* jack_finger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81423C4F14C38209001C9857 /* jack_finger.jpg */; };
+		814DAD0F14D221CA00948C75 /* jack_finger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD0E14D221CA00948C75 /* jack_finger@2x.png */; };
 		8168404014BBAA0D00A809BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168403F14BBAA0D00A809BF /* UIKit.framework */; };
 		8168404214BBAA0D00A809BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168404114BBAA0D00A809BF /* Foundation.framework */; };
 		8168404414BBAA0D00A809BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168404314BBAA0D00A809BF /* CoreGraphics.framework */; };
@@ -15,10 +16,12 @@
 		8168404C14BBAA0E00A809BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168404B14BBAA0E00A809BF /* main.m */; };
 		8168405014BBAA0E00A809BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168404F14BBAA0E00A809BF /* AppDelegate.m */; };
 		8168405814BBABA800A809BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8168405714BBABA800A809BF /* FirstViewController.m */; };
+		81A8E2C114CB4911005DDA40 /* jack_finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A8E2C014CB4911005DDA40 /* jack_finger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81423C4F14C38209001C9857 /* jack_finger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jack_finger.jpg; path = ../../../../Downloads/jack_finger.jpg; sourceTree = "<group>"; };
+		814DAD0E14D221CA00948C75 /* jack_finger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "jack_finger@2x.png"; path = "../../../Downloads/jack_finger@2x.png"; sourceTree = "<group>"; };
 		8168403B14BBAA0D00A809BF /* ohms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ohms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8168403F14BBAA0D00A809BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8168404114BBAA0D00A809BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +34,7 @@
 		8168404F14BBAA0E00A809BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8168405614BBABA800A809BF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8168405714BBABA800A809BF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		81A8E2C014CB4911005DDA40 /* jack_finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jack_finger.png; path = ../../../Downloads/jack_finger.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		814DAD0C14D21BEA00948C75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD0E14D221CA00948C75 /* jack_finger@2x.png */,
+				81A8E2C014CB4911005DDA40 /* jack_finger.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		8168403014BBAA0D00A809BF = {
 			isa = PBXGroup;
 			children = (
+				814DAD0C14D21BEA00948C75 /* Images */,
 				8168404514BBAA0D00A809BF /* ohms */,
 				8168403E14BBAA0D00A809BF /* Frameworks */,
 				8168403C14BBAA0D00A809BF /* Products */,
@@ -150,6 +164,8 @@
 			files = (
 				8168404A14BBAA0D00A809BF /* InfoPlist.strings in Resources */,
 				81423C5014C38209001C9857 /* jack_finger.jpg in Resources */,
+				81A8E2C114CB4911005DDA40 /* jack_finger.png in Resources */,
+				814DAD0F14D221CA00948C75 /* jack_finger@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

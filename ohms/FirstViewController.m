@@ -32,12 +32,12 @@
     
     // What if I want to add texture to the background?
     // Found the class property colorWithPatternImage
-    // self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"jack_finger.jpg"]]; 
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"jack_finger.png"]]; 
     
     // self.view.backgroundColor = [UIColor redColor];
     
     
-    self.view.backgroundColor = [UIColor colorWithRed:0.1f green:0.5f blue:1.0f alpha:1.0f];
+    //self.view.backgroundColor = [UIColor colorWithRed:0.1f green:0.5f blue:1.0f alpha:1.0f];
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.frame = CGRectMake(150, 200, 100, 30);    
     [button setTitle:@"Calculate" forState:UIControlStateNormal];
